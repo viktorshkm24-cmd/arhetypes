@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kameron", "Kaushan Script", serif;
+  font-size: 18px;
+  font-weight: 400px;
+  font-style: normal;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text {
+  font-family: Kameron;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  color: red;
+  font-size: 32px;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.header {
+  width: 141px;
+  height: 51px;
+  display: inline-block;
+}
+
+nav {
+  width: 949px;
+  height: 21px;
+  display: inline-block;
+}
+
+.container {
+  width: 1280px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.main__span {
+  font-family: Kameron;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(153, 19, 19, 1);
+}
+
+.title {
+  font-family: Kameron;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 823px;
+  color: #ffffff;
+}
+
+.hero {
+  background-image: url(../img/hero.png);
+  width: 1200px;
+  height: 686px;
+  padding-top: 177px;
+  padding-bottom: 169px;
+  padding-left: 188px;
+  padding-right: 188px;
+}
+
+.p__text {
+  font-family: Kaushan Script;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+}
+
+.main__btn {
+  width: 247px;
+  height: 51px;
+  border-radius: 100px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  gap: 10px;
+}
+
+.main__btn {
+  width: 247px;
+  height: 51px;
+  border-radius: 100px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  gap: 10px;
+  background: #991313;
+  color: white;
+}
+
+.main__btn2 {
+  width: 247px;
+  height: 51px;
+  border-radius: 100px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  gap: 10px;
+  border-width: 3px;
+  background: #00000040;
+  border: 3px solid #991313;
+  color: white;
+}
+
+.img {
+  width: 515px;
+  height: 475px;
+  float: right;
+}
+
+.title2 {
+  font-family: Kameron;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 44px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.main__p {
+  font-family: Kameron;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 3%;
+}
+
+.main__btn3 {
+  width: 261px;
+  height: 51px;
+  border-radius: 100px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  background: #991313;
+  color: white;
+}
+
+.hero__box {
+  width: 550px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.arhetype {
+  clear: both;
+}
+
+.card {
+  display: inline-block;
+  width: 360px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 605px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow:
+    0px 4px 4px #ffffff,
+    0px 10px 19px rgba(153, 19, 19, 0.65);
+  border-radius: 5px;
+}
+
+.card img {
+  width: 360px;
+  height: 490px;
+}
+
+.nevynniy {
+  font-family: Kameron;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 44px;
+  text-align: center;
+}
+
+.nevynniy2 {
+  font-family: Kameron;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border-width: 1px;
+  border-radius: 100px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  gap: 10px;
+  border: 1px solid #991313;
+  box-shadow: 0px 4px 4px 0px #9913134f;
+  background: #ffffff33;
+}
+
+.footer__link {
+  display: block;
+  margin-top: 10px;
+}
+
+.footer__link1 {
+  font-family: Kaushan Script;
+  font-weight: 300;
+  font-style: Regular;
+  font-size: 30px;
+}
+
+.text2 {
+  color: #991313;
+}
+
+.div__footer {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.nyz {
+  display: inline-block;
+}
+
+.footer__item {
+  display: inline;
+}
+
+.title4, .title5 {
+  margin-bottom: 20px;
+}
+.title5 {
+  margin-bottom: 30px;
+}
+
+.type__text {
+  width: 343px;
+  height: 50px;
+  border-radius: 100px;
+  border-width: 1px;
+  border: 1px solid #FFFFFF2E;
+  box-shadow: 0px 4px 4px 0px #9913134F;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.end {
+  width: 208;
+  height: 50px;
+  border-radius: 100px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  gap: 10px;
+  display: inline-block;
+  background: rgba(153, 19, 19, 1);
+  color: white;
+}
+
+.div__footer2 {
+  display: inline-block;
+}
+
+footer {
+  margin-top: 40px;
+}
